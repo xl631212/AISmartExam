@@ -152,7 +152,6 @@ def main():
     st.session_state.app_mode = st.sidebar.selectbox("Choose the app mode", app_mode_options, index=app_mode_options.index(st.session_state.app_mode))
     
     st.sidebar.markdown("## About")
-    st.sidebar.video("https://youtu.be/zE3ToJLLSIY")
     st.sidebar.info(
         """
         **SmartExam Creator** is an innovative tool designed to help students and educators alike. 
@@ -175,9 +174,6 @@ def main():
         - Take interactive quizzes
         - Download generated exams as PDF
 
-        Built with ❤️ using OpenAI's GPT-4o-mini.
-
-        **Connect with me on [LinkedIn](https://www.linkedin.com/in/laurin-herbst/).**
         """
     )
     
